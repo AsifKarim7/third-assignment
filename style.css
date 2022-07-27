@@ -11,3 +11,33 @@
 .li-color a {
     color: #777777;
 }
+
+/* carousel section */
+.carousel-inner img {
+    filter: brightness(50%);
+}
+
+.carousel-button {
+    background-color: #289BDE;
+    border: 0px solid #289BDE;
+}
+
+/* media queries */
+/* small and extra small devices */
+
+@media only screen and (max-width:767px) {
+    .carousel-inner img {
+        height: 275px;
+        object-fit: cover;
+    }
+
+    .carousel-caption h1 {
+        font-size: 20px;
+    }
+
+    .carousel-caption p {
+        font-size: 12px;
+    }
+
+
+}
