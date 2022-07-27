@@ -1,0 +1,13 @@
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* navigation bar */
+.button-color {
+    color: #289BDE;
+    border: 1px solid #289BDE;
+}
+
+.li-color a {
+    color: #777777;
+}
