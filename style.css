@@ -2,35 +2,21 @@
     font-family: 'Poppins', sans-serif;
 }
 
-/* navigation bar */
-.button-color {
-    color: #289BDE;
-    border: 1px solid #289BDE;
-}
-
-.li-color a {
-    color: #777777;
-}
-
 /* carousel section */
 .carousel-inner img {
     filter: brightness(50%);
 }
 
-.carousel-button {
+.custom-btn-color {
     background-color: #289BDE;
-    border: 0px solid #289BDE;
+    border: none;
 }
 
 /* media queries */
 /* small and extra small devices */
-
 @media only screen and (max-width:767px) {
-    .carousel-inner img {
-        height: 275px;
-        object-fit: cover;
-    }
 
+    /* carousel section  */
     .carousel-caption h1 {
         font-size: 20px;
     }
@@ -39,5 +25,7 @@
         font-size: 12px;
     }
 
-
+    .carousel-caption button {
+        font-size: 14px;
+    }
 }
